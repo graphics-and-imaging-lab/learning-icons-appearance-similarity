@@ -1,12 +1,12 @@
 # learning-icons-appearance-similarity
-Sample code that select similar icons using the method from the paper Learning Icons Appearance Similarity.
+Sample code that select similar icons using the method from the paper [Learning Icons Appearance Similarity](https://arxiv.org/abs/1902.05378).
 
 #### Project structure
 
-- **./small_dataset** folder containing a small subset downloaded from _the noun project_.
-- **model_icons.pth** stores the weights of the model.
-- **model_icons.py** contains the description of the model.
-- **plot_similar.py** plots similar icons to a given reference.
+- `./small_dataset` folder containing a small subset downloaded from _the noun project_.
+- `model_icons.pth` stores the weights of the model.
+- `model_icons.py` contains the description of the model.
+- `plot_similar.py` plots similar icons to a given reference.
 
 #### How to run
 
@@ -38,7 +38,7 @@ If you found this code useful please cite our work:
   year="2018",
   month="Sep",
   issn="1573-7721",
-  doi="10.1007/s11042-018-6628-7",
+  doi="10.1007/s11042-018-6628-7"
 }
 ```
 
