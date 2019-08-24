@@ -19,7 +19,9 @@ matplotlib
 tqdm
 ```
 
-Then, in order to find similar icons in the sample dataset run:
+Download the weights of the trained model using this [link](https://drive.google.com/file/d/1-zidFgj0kI7h3rK7uRDGsMSCglppJqX4/view?usp=sharing)
+and make sure they are placed in the root folder of the project.
+Then, in order to find similar icons in the given dataset run:
 ```
 python3 plot_similar.py
 ```
