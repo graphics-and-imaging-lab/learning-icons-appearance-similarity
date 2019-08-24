@@ -8,7 +8,7 @@ Sample code that select similar icons using the method from the paper [Learning 
 - `model_icons.py` contains the description of the model.
 - `plot_similar.py` plots similar icons to a given reference.
 
-#### How to run
+#### How to run the code
 
 First make sure that you have installed the following packages for python:
 
@@ -19,12 +19,14 @@ matplotlib
 tqdm
 ```
 
-Download the weights of the trained model using this [link](https://drive.google.com/file/d/1-zidFgj0kI7h3rK7uRDGsMSCglppJqX4/view?usp=sharing)
+**Download the weights of the trained model** using this [link](https://drive.google.com/file/d/1-zidFgj0kI7h3rK7uRDGsMSCglppJqX4/view?usp=sharing)
 and make sure they are placed in the root folder of the project.
 Then, in order to find similar icons in the given dataset run:
 ```
 python3 plot_similar.py
 ```
+
+If you did not modify the code, after running the script, a new folder _similar_icons_ will be created containing the images of the reference together with the _k_ closest icons to it in ascending order of distance (the distance is also written in the image title).
 
 _Note that we have tested the code using Python 3.6_
 #### Useful information
